@@ -4,7 +4,7 @@ The official repository for "Audio-Visual Compound Expression Recognition Method
 
 ## Abstract
 
-In this article, the results of our team for the sixth ABAW Competition: CE Recognition Challenge are presented. We propose an audio-visual method for compound expression recognition. Our method is not based on training models of the target task, but it based on emotion recognition models that fuse modalities at the level of emotional probabilities, while decisions about predicting compound expressions are made based on rules. The proposed models are tested both as a result of multi-corpus training and as a result of cross-corpus validation. The results obtained show that the proposed method can potentially form the basis for the development of intelligent tools for annotating corpora in the context of basic and compound emotions.
+This paper presents the results of the SUN team for the CE Recognition Challenge of the 6th ABAW Competition. We propose a novel audio-visual method for compound expression recognition. Our method relies on emotion recognition models that fuse modalities at the emotion probability level, while decisions regarding the prediction of compound expressions are based on predefined rules. Notably, our method does not use any training data specific to the target task. The method is evaluated in multi-corpus training and cross-corpus validation setups. Our findings from the challenge demonstrate that the proposed method can potentially form a basis for development of intelligent tools for annotating audio-visual data in the context of human's basic and compound emotions.
 
 ## Acknowledgments
 
