@@ -7,10 +7,10 @@ Model weights are available at [models](https://drive.google.com/drive/folders/1
 To predict compound expression by a video, you should run the command:
 
 ```shell script
-python run.py --path_video test_videos/20.mp4 --path_save test_videos/results/
+python run.py --path_video <your path to a video file> --path_save <your path to save results>
 ```
 
-Result of predictions obtained by static visual model (VS), dynamic visual model (VD) and audio model (A), and audio-visual modality fusion method:
+Example of predictions obtained by static visual model (VS), dynamic visual model (VD) and audio model (A), and audio-visual modality fusion method:
 
 <div style="display:flex; flex-direction: column;">
     <img src="test_videos/results/faces.jpg" alt="Faces" style="width: 100%;">
