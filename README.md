@@ -1,6 +1,6 @@
 # Audio-Visual Compound Expression Recognition Method based on Late Modality Fusion and Rule-based Decision
 
-The official repository for "Audio-Visual Compound Expression Recognition Method based on Late Modality Fusion and Rule-based Decision", [CVPRW 2024](https://affective-behavior-analysis-in-the-wild.github.io/6th/) (submitted)
+The official repository for "Audio-Visual Compound Expression Recognition Method based on Late Modality Fusion and Rule-based Decision", as a part of [ABAW 2024](https://affective-behavior-analysis-in-the-wild.github.io/6th/) (submitted)
 
 ## Abstract
 
