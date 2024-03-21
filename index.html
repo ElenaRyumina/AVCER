@@ -72,13 +72,13 @@
                 <div class="publication-links">
                 <!-- PDF Link. -->
                 <span class="link-block">
-                    <a href="#"
+                    <a href="https://arxiv.org/abs/2403.12687"
                     target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                     </span>
-                    <span>Paper (coming soon)</span>
+                    <span>Paper</span>
                     </a>
                 </span>
                 <!-- <span class="link-block">
@@ -162,7 +162,7 @@
                                 <use xlink:href="#todo__circle" class="todo__circle"></use>
                                 </svg>
 
-                                <div class="todo__text">arXiv paper submission (soon)</div>
+                                <div class="todo__text">arXiv paper submission</div>
                             </label>
 
                             <label class="todo">
@@ -175,7 +175,7 @@
                                 <use xlink:href="#todo__circle" class="todo__circle"></use>
                                 </svg>
 
-                                <div class="todo__text">Release code and models (soon) </div>
+                                <div class="todo__text">Release code</div>
                             </label>
 
                             <label class="todo">
@@ -188,7 +188,7 @@
                                 <use xlink:href="#todo__circle" class="todo__circle"></use>
                                 </svg>
 
-                                <div class="todo__text">Release Demo (soon) </div>
+                                <div class="todo__text">Release Models and Demo (soon) </div>
                             </label>
 
                             </div>
@@ -198,7 +198,6 @@
             </div>
         </div>
 
-
         <div class="abstract-section">
             <div class="container is-max-desktop abstract-sect">
                 <div class="columns is-centered has-text-centered">
@@ -206,8 +205,54 @@
                         <h2 class="title is-3">Abstract</h2>
                         <div class="content has-text-justified">
                             <p>
-                                This paper presents the results of the SUN team for the CE Recognition Challenge of the 6th ABAW Competition. We propose a novel audio-visual method for compound expression recognition. Our method relies on emotion recognition models that fuse modalities at the emotion probability level, while decisions regarding the prediction of compound expressions are based on predefined rules. Notably, our method does not use any training data specific to the target task. The method is evaluated in multi-corpus training and cross-corpus validation setups. Our findings from the challenge demonstrate that the proposed method can potentially form a basis for development of intelligent tools for annotating audio-visual data in the context of human's basic and compound emotions.
+                                This paper presents the results of the SUN team for the CE Recognition Challenge of the 6th ABAW Competition. We propose a novel audio-visual method for compound expression recognition. Our method relies on emotion recognition models that fuse modalities at the emotion probability level, while decisions regarding the prediction of compound expressions are based on predefined rules. Notably, our method does not use any training data specific to the target task. Thus, the problem is thus, a zero-shot classification task. The method is evaluated in multi-corpus training and cross-corpus validation setups. Our findings from the challenge demonstrate that the proposed method can potentially form a basis for developing intelligent tools for annotating audio-visual data in the context of human's basic and compound emotions.
                             </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pipeline-section">
+            <div class="container is-max-desktop">
+                <div class="pipeline">
+                    <div class="columns is-centered has-text-centered">
+                        <div class="column is-four-fifths">
+                            <h2 class="title is-3">Pipeline of the proposed audio-visual CER method</h2>
+                            <img class="img-method" src="./static/img/Pipeline.png" alt="pipeline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pipeline-section">
+            <div class="container is-max-desktop">
+                <div class="pipeline">
+                    <div class="columns is-centered has-text-centered">
+                        <div class="column is-four-fifths">
+                            <h2 class="title is-3">An example of CEs prediction using video from the C-EXPR-DB corpus</h2>
+                            <img class="img-method" src="./static/img/Predictions.png" alt="pipeline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="conclusion-section">
+            <div class="container is-max-desktop">
+                <div class="conclusion">
+                    <div class="columns is-centered has-text-centered">
+                        <div class="column is-four-fifths">
+                            <h2 class="title is-3">Conclusion</h2>
+                            <div class="content has-text-justified">
+                                <p>
+                                In this paper, we propose a novel audio-visual method for CER. The method integrates three models, including the static and dynamic visual models, as well as the audio model. Each model predicts the emotion probabilities for six basic emotions and the neutral state. The emotional probabilities are then weighted utilizing the Dirichlet distribution. Finally, two rules are applied to determine CE. Additionally, We provide new baselines for recognizing seven emotions on the Validation subsets of the AffWild2 and AFEW corpora.
+                                </p>
+                                <p>
+                                The experimental results demonstrate that each model is responsible for predicting specific CE. For example, the audio model is responsible for predicting the Angry Surprised and Sadly Angry, the static visual model is responsible for predicting the Happily Surprised class, and the dynamic visual model well predicts other CE. The results obtained show that the proposed method can potentially lead to intelligent software tools for fast annotation of data containing both basic and compound emotional expressions.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

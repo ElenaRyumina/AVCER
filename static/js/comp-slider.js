@@ -37,9 +37,9 @@ setTimeout(function () {
     checkboxes[0].setAttribute('checked', true);
 }, 200);
 
-// setTimeout(function () {
-//     checkboxes[1].setAttribute('checked', true);
-// }, 1000);
+setTimeout(function () {
+    checkboxes[1].setAttribute('checked', true);
+}, 1000);
 
 setTimeout(function () {
     checkboxes[2].setAttribute('checked', true);
