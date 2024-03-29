@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="description"
-        content="Audio-Visual Compound Expression Recognition Method based on Late Modality Fusion and Rule-based Decision">
+        content="Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion">
     <meta name="keywords" content="CVPRW 2024">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Audio-Visual Compound Expression Recognition Method based on Late Modality Fusion and Rule-based Decision</title>
+    <title>Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion</title>
 
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
     <link rel="stylesheet" href="./static/css/bulma.min.css">
@@ -43,7 +43,7 @@
         <div class="columns is-centered">
             <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">
-                Audio-Visual Compound Expression Recognition Method based on Late Modality Fusion and Rule-based Decision
+                Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion
             </h1>
 
             <div class="is-size-5 publication-authors">
@@ -159,7 +159,7 @@
                         <h2 class="title is-3">Abstract</h2>
                         <div class="content has-text-justified">
                             <p>
-                                This paper presents the results of the SUN team for the CE Recognition Challenge of the 6th ABAW Competition. We propose a novel audio-visual method for compound expression recognition. Our method relies on emotion recognition models that fuse modalities at the emotion probability level, while decisions regarding the prediction of compound expressions are based on predefined rules. Notably, our method does not use any training data specific to the target task. Thus, the problem is thus, a zero-shot classification task. The method is evaluated in multi-corpus training and cross-corpus validation setups. Our findings from the challenge demonstrate that the proposed method can potentially form a basis for developing intelligent tools for annotating audio-visual data in the context of human's basic and compound emotions.
+                                A Compound Expression Recognition (CER) as a part of affective computing is a novel task in intelligent human-computer interaction and multimodal user interfaces. We propose a novel audio-visual method for CER. Our method relies on emotion recognition models that fuse modalities at the emotion probability level, while decisions regarding the prediction of compound expressions are based on the pair-wise sum of weighted emotion probability distributions. Notably, our method does not use any training data specific to the target task. Thus, the problem is a zero-shot classification task. The method is evaluated in multi-corpus training and cross-corpus validation setups. We achieved F1-score values equal to 32.15% and 25.56% for the AffWild2 and C-EXPR-DB test subsets without training on target corpus and target task, respectively. Therefore, our method is on par with methods developed training target corpus or target task. Our findings from the challenge demonstrate that the proposed method can potentially form a basis for developing intelligent tools for annotating audio-visual data in the context of human's basic and compound emotions.
                             </p>
                         </div>
                     </div>
@@ -201,10 +201,10 @@
                             <h2 class="title is-3">Conclusion</h2>
                             <div class="content has-text-justified">
                                 <p>
-                                In this paper, we propose a novel audio-visual method for CER. The method integrates three models, including the static and dynamic visual models, as well as the audio model. Each model predicts the emotion probabilities for six basic emotions and the neutral state. The emotional probabilities are then weighted utilizing the Dirichlet distribution. Finally, two rules are applied to determine CE. Additionally, We provide new baselines for recognizing seven emotions on the Validation subsets of the AffWild2 and AFEW corpora.
+                                In this paper, we propose a novel audio-visual method for CER. The method integrates three models, including the static and dynamic visual models, as well as the audio model. Each model predicts the emotion probabilities for six basic emotions and the neutral state. The emotional probabilities are then weighted using the Dirichlet distribution. Finally, the pair-wise sum of weighted emotion probability distributions is applied to determine the compound emotions. Additionally, we provide new baselines for recognizing seven emotions on the validation subsets of the AffWild2 and AFEW corpora.
                                 </p>
                                 <p>
-                                The experimental results demonstrate that each model is responsible for predicting specific CE. For example, the audio model is responsible for predicting the Angry Surprised and Sadly Angry, the static visual model is responsible for predicting the Happily Surprised class, and the dynamic visual model well predicts other CE. The results obtained show that the proposed method can potentially lead to intelligent software tools for fast annotation of data containing both basic and compound emotional expressions.
+                                The experimental results demonstrate that each model is responsible for predicting specific Compound Expression (CE). For example, the acoustic model is responsible for predicting the Angry Surprised and Sadly Angry, the static visual model is responsible for predicting the Happily Surprised class, and the dynamic visual model predicts other CE well. In our future research, we aim to improve the generalization ability of the proposed method by adding a text model and increasing the number of heterogeneous training corpora for multi-corpus and cross-corpus studies.
                                 </p>
                             </div>
                         </div>
