@@ -1,10 +1,10 @@
-# Audio-Visual Compound Expression Recognition Method based on Late Modality Fusion and Rule-based Decision
+# Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion
 
-The official repository for "Audio-Visual Compound Expression Recognition Method based on Late Modality Fusion and Rule-based Decision", as a part of [6th ABAW 2024](https://affective-behavior-analysis-in-the-wild.github.io/6th/) (submitted)
+The official repository for "Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion", as a part of [CVPRW 2024](https://affective-behavior-analysis-in-the-wild.github.io/6th/) (submitted)
 
 ## Abstract
 
-This paper presents the results of the SUN team for the CE Recognition Challenge of the 6th ABAW Competition. We propose a novel audio-visual method for compound expression recognition. Our method relies on emotion recognition models that fuse modalities at the emotion probability level, while decisions regarding the prediction of compound expressions are based on predefined rules. Notably, our method does not use any training data specific to the target task. The method is evaluated in multi-corpus training and cross-corpus validation setups. Our findings from the challenge demonstrate that the proposed method can potentially form a basis for development of intelligent tools for annotating audio-visual data in the context of human's basic and compound emotions.
+A Compound Expression Recognition (CER) as a part of affective computing is a novel task in intelligent human-computer interaction and multimodal user interfaces. We propose a novel audio-visual method for CER. Our method relies on emotion recognition models that fuse modalities at the emotion probability level, while decisions regarding the prediction of compound expressions are based on the pair-wise sum of weighted emotion probability distributions. Notably, our method does not use any training data specific to the target task. Thus, the problem is a zero-shot classification task. The method is evaluated in multi-corpus training and cross-corpus validation setups. We achieved F1-score values equal to 32.15% and 25.56% for the AffWild2 and C-EXPR-DB test subsets without training on target corpus and target task, respectively. Therefore, our method is on par with methods developed training target corpus or target task. Our findings from the challenge demonstrate that the proposed method can potentially form a basis for developing intelligent tools for annotating audio-visual data in the context of human's basic and compound emotions.
 
 ## Acknowledgments
 
