@@ -1,6 +1,6 @@
 # Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion
 
-The official repository for "Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion", as a part of [CVPRW 2024](https://affective-behavior-analysis-in-the-wild.github.io/6th/) (submitted)
+The official repository for "Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion", as a part of [CVPRW 2024](https://affective-behavior-analysis-in-the-wild.github.io/6th/) (Accepted)
 
 ## Abstract
 
