@@ -119,6 +119,23 @@ section {
   /* border-top: 1px solid #363636; */
 }
 
+.related-section {
+  padding: 0 24px;
+
+}
+
+.related {
+  padding: 50px 0 80px 0;
+  border-bottom: 1px solid #363636;
+  /* border-top: 1px solid #363636; */
+}
+
+.related .content span {
+  color: #FFF;
+  background-color:#343941;
+  border-radius: 6px;
+  padding: 2px 4px;
+}
 
 .architectures-section {
   padding: 0 24px;
