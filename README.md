@@ -36,14 +36,6 @@ If you are using AVCER in your research, please site:
   <span class="pl-s">pages</span>        = <span class="pl-s"><span class="pl-pds">{</span>1--9<span class="pl-pds">}</span></span>,
 }</div>
 
-@inproceedings{deng2020retinaface,
-  title={Retinaface: Single-shot multi-level face localisation in the wild},
-  author={Deng, Jiankang and Guo, Jia and Ververas, Evangelos and others},
-  booktitle=CVPR,
-  pages={5203--5212},
-  year={2020}
-}
-
 ## Acknowledgments
 
 Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
