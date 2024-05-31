@@ -26,15 +26,13 @@ Example of predictions obtained by static visual (VS), dynamic visual (VD), audi
 
 ## Citation
 
-If you are using EMO-AffectNetModel in your research, please consider to cite research [paper](https://www.sciencedirect.com/science/article/pii/S0925231222012656). Here is an example of BibTeX entry:
+If you are using AVCER in your research, please site:
 
-<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@article</span>{<span class="pl-en">RYUMINA2022</span>,
-  <span class="pl-s">title</span>        = <span class="pl-s"><span class="pl-pds">{</span>In Search of a Robust Facial Expressions Recognition Model: A Large-Scale Visual Cross-Corpus Study<span class="pl-pds">}</span></span>,
-  <span class="pl-s">author</span>       = <span class="pl-s"><span class="pl-pds">{</span>Elena Ryumina and Denis Dresvyanskiy and Alexey Karpov<span class="pl-pds">}</span></span>,
-  <span class="pl-s">journal</span>      = <span class="pl-s"><span class="pl-pds">{</span>Neurocomputing<span class="pl-pds">}</span></span>,
-  <span class="pl-s">year</span>         = <span class="pl-s"><span class="pl-pds">{</span>2022<span class="pl-pds">}</span></span>,
-  <span class="pl-s">doi</span>          = <span class="pl-s"><span class="pl-pds">{</span>10.1016/j.neucom.2022.10.013<span class="pl-pds">}</span></span>,
-  <span class="pl-s">url</span>          = <span class="pl-s"><span class="pl-pds">{</span>https://www.sciencedirect.com/science/article/pii/S0925231222012656<span class="pl-pds">}</span></span>,
+<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@article</span>{<span class="pl-en">RYUMINA2024CWPRV</span>,
+  <span class="pl-s">title</span>        = <span class="pl-s"><span class="pl-pds">{</span>Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion<span class="pl-pds">}</span></span>,
+  <span class="pl-s">author</span>       = <span class="pl-s"><span class="pl-pds">{</span>Elena Ryumina and Maxim Markitantov and Dmitry Ryumin and Heysem Kaya and Alexey Karpov<span class="pl-pds">}</span></span>,
+  <span class="pl-s">journal</span>      = <span class="pl-s"><span class="pl-pds">{</span> IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops<span class="pl-pds">}</span></span>,
+  <span class="pl-s">year</span>         = <span class="pl-s"><span class="pl-pds">{</span>2024<span class="pl-pds">}</span></span>,
 }</div>
 
 ## Acknowledgments
