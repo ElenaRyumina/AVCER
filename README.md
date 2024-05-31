@@ -6,7 +6,7 @@ The official repository for "Zero-Shot Audio-Visual Compound Expression Recognit
 
 A Compound Expression Recognition (CER) as a part of affective computing is a novel task in intelligent human-computer interaction and multimodal user interfaces. We propose a novel audio-visual method for CER. Our method relies on emotion recognition models that fuse modalities at the emotion probability level, while decisions regarding the prediction of compound expressions are based on the pair-wise sum of weighted emotion probability distributions. Notably, our method does not use any training data specific to the target task. Thus, the problem is a zero-shot classification task. The method is evaluated in multi-corpus training and cross-corpus validation setups. We achieved F1-score values equal to 32.15% and 25.56% for the AffWild2 and C-EXPR-DB test subsets without training on target corpus and target task, respectively. Therefore, our method is on par with methods developed training target corpus or target task.
 
-<hr />
+## Quick Start
 
 This repository introduces a new zero-short audio-visual method for compound expression recognition.
 
@@ -23,6 +23,19 @@ Example of predictions obtained by static visual (VS), dynamic visual (VD), audi
 <div style="display:flex; flex-direction: column;">
     <img src="https://github.com/C-EXPR-DB/AVCER/blob/main/static/img/Predictions.png" alt="predictions" style="width: 100%;">
 </div>
+
+## Citation
+
+If you are using EMO-AffectNetModel in your research, please consider to cite research [paper](https://www.sciencedirect.com/science/article/pii/S0925231222012656). Here is an example of BibTeX entry:
+
+<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@article</span>{<span class="pl-en">RYUMINA2022</span>,
+  <span class="pl-s">title</span>        = <span class="pl-s"><span class="pl-pds">{</span>In Search of a Robust Facial Expressions Recognition Model: A Large-Scale Visual Cross-Corpus Study<span class="pl-pds">}</span></span>,
+  <span class="pl-s">author</span>       = <span class="pl-s"><span class="pl-pds">{</span>Elena Ryumina and Denis Dresvyanskiy and Alexey Karpov<span class="pl-pds">}</span></span>,
+  <span class="pl-s">journal</span>      = <span class="pl-s"><span class="pl-pds">{</span>Neurocomputing<span class="pl-pds">}</span></span>,
+  <span class="pl-s">year</span>         = <span class="pl-s"><span class="pl-pds">{</span>2022<span class="pl-pds">}</span></span>,
+  <span class="pl-s">doi</span>          = <span class="pl-s"><span class="pl-pds">{</span>10.1016/j.neucom.2022.10.013<span class="pl-pds">}</span></span>,
+  <span class="pl-s">url</span>          = <span class="pl-s"><span class="pl-pds">{</span>https://www.sciencedirect.com/science/article/pii/S0925231222012656<span class="pl-pds">}</span></span>,
+}</div>
 
 ## Acknowledgments
 
