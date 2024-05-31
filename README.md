@@ -28,12 +28,21 @@ Example of predictions obtained by static visual (VS), dynamic visual (VD), audi
 
 If you are using AVCER in your research, please site:
 
-<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@article</span>{<span class="pl-en">RYUMINA2024CWPRV</span>,
+<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@inproceedings</span>{<span class="pl-en">RYUMINA2024CWPRV</span>,
   <span class="pl-s">title</span>        = <span class="pl-s"><span class="pl-pds">{</span>Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion<span class="pl-pds">}</span></span>,
   <span class="pl-s">author</span>       = <span class="pl-s"><span class="pl-pds">{</span>Elena Ryumina and Maxim Markitantov and Dmitry Ryumin and Heysem Kaya and Alexey Karpov<span class="pl-pds">}</span></span>,
-  <span class="pl-s">journal</span>      = <span class="pl-s"><span class="pl-pds">{</span>IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops<span class="pl-pds">}</span></span>,
+  <span class="pl-s">booktitle</span>    = <span class="pl-s"><span class="pl-pds">{</span>IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops<span class="pl-pds">}</span></span>,
   <span class="pl-s">year</span>         = <span class="pl-s"><span class="pl-pds">{</span>2024<span class="pl-pds">}</span></span>,
+  <span class="pl-s">pages</span>        = <span class="pl-s"><span class="pl-pds">{</span>1--9<span class="pl-pds">}</span></span>,
 }</div>
+
+@inproceedings{deng2020retinaface,
+  title={Retinaface: Single-shot multi-level face localisation in the wild},
+  author={Deng, Jiankang and Guo, Jia and Ververas, Evangelos and others},
+  booktitle=CVPR,
+  pages={5203--5212},
+  year={2020}
+}
 
 ## Acknowledgments
 
