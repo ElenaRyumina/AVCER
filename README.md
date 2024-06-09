@@ -1,5 +1,7 @@
 # Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion
 
+[![App](https://img.shields.io/badge/🤗-DEMO--AVCER-FFD21F.svg)](https://huggingface.co/spaces/ElenaRyumina/AVCER)
+
 The official repository for "Zero-Shot Audio-Visual Compound Expression Recognition Method based on Emotion Probability Fusion", as a part of [CVPRW 2024](https://affective-behavior-analysis-in-the-wild.github.io/6th/) (Accepted)
 
 ## Abstract
